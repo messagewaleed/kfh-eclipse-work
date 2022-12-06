@@ -1,0 +1,77 @@
+package com.kfh.waleed.training;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DbConnect {
+	
+	public static final String DB_URLTOCONNECT = "jdbc:mysql://localhost:3306/training_kfh";
+	 
+	public static final String DB_USERNAME = "root";
+	
+	public static final String DB_PASSWORD = "";
+	
+	static private Connection dbCon;
+
+	public static void main(String[] args) {
+
+		try {
+//			Load the driver
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+//			Try to establish the connection
+dbCon = DriverManager
+.getConnection(DB_URLTOCONNECT, DB_USERNAME, DB_PASSWORD);
+
+getAllDeveloperData();
+
+			
+//			System.out.println("Successfully connected to the database...");
+		} catch (ClassNotFoundException e) {
+			System.out.println("Can't load the driver : " + e.getMessage());
+		} catch (SQLException e) {
+			System.out.println("Can't connect, some issues  : " + e.getMessage());
+		}
+
+	}
+	
+	
+//	Fetch all details of all developers
+	static void getAllDeveloperData() {
+//		Write the query
+		String qry = "select * from developer";
+		
+
+		try {
+//			Get a reference to the Statement
+			Statement theStatement = dbCon.createStatement();
+			
+//			Execute the query
+			ResultSet resultSet = theStatement.executeQuery(qry);
+			
+//			Traverse through the results
+			while(resultSet.next()) {
+				System.out.println(resultSet.getString("name"));
+			}
+			
+//			Close the connection
+			dbCon.close();
+			
+		} catch (SQLException e) {
+			System.out.println("Issues : " + e.getMessage());
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

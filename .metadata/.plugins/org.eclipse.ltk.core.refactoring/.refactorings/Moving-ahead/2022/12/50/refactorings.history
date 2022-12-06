@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.waleed.training.Navigate&apos; to &apos;Authenticate&apos;&#x0A;- Original project: &apos;Moving-ahead&apos;&#x0A;- Original element: &apos;com.waleed.training.Navigate&apos;&#x0A;- Renamed element: &apos;com.waleed.training.Authenticate&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Navigate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.waleed.training{Navigate.java[Navigate" matchStrategy="1" name="Authenticate" qualified="false" references="true" similarDeclarations="false" stamp="1670324059077" textual="false" version="1.0"/>
+</session>

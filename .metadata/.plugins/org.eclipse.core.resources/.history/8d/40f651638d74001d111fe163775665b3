@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Starting Java Web</title>
+</head>
+<body>
+<h1>
+Starting to work with Java Web...
+<br>
+<!-- <a href="first">Go to the Servlet</a> -->
+
+<form action="first">
+	<input placeholder="Your name" type="text"><br>
+	<input type="submit">
+</form>
+</h1>
+</body>
+</html>
