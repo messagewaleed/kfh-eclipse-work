@@ -1,3 +1,4 @@
+<%@page import="com.kfh.training.SomeWork"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -26,6 +27,11 @@ value
 	out.println(new Date());
 	out.println(78 + 901);
 	out.println("IBM".toLowerCase());
+	
+	SomeWork work = new SomeWork();
+	out.println("<br>Addition is : " + work.operate(45, 90));
+	
+	
 	/* for(int index = 9; index < 99; index++){
 		out.println(index + "<br>");
 	} */
