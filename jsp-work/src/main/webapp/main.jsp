@@ -9,7 +9,21 @@
 <body>
 
 <jsp:include page="heading.jsp"></jsp:include><!-- using jsp include action  -->
-This website is still under construction...
+This website is still under construction......
 <%@ include file="footer.jsp" %><!-- using include directive -->
+
+
+<jsp:forward page="error.jsp">
+	<jsp:param name="company" value="IBM" />
+	<jsp:param name="domain" value="services"/>
+</jsp:forward>
+
+
+
+
+
+
+
+
 </body>
 </html>
