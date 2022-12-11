@@ -275,3 +275,91 @@
 2022-12-11 08:58:32,373 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
 2022-12-11 08:58:32,374 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-11 08:58:32,374 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 09:00:34,937 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 09:00:34,942 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 09:00:34,945 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 09:00:34,945 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:10:19,868 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:10:19,923 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:10:19,940 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:10:19,942 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:15:55,556 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:15:55,629 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:15:55,780 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:15:55,781 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:17:23,570 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:17:23,603 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:17:23,826 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:17:23,857 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:19:17,537 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:17,594 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:19:17,656 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:17,656 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:19:18,630 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:18,634 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:19:18,636 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:18,636 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:19:47,298 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:47,301 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:19:47,309 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:19:47,309 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:20:10,111 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:20:10,151 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:20:10,197 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:20:10,198 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:20:59,755 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:20:59,801 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:20:59,957 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:20:59,957 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:23:01,952 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:23:01,977 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:23:02,046 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:23:02,046 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:23:54,488 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:23:54,505 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:23:54,523 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:23:54,526 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:24:52,363 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:24:52,381 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:24:52,383 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:24:52,383 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:24:53,475 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:24:53,475 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:24:53,476 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:24:53,477 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:25:53,361 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:25:53,379 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:25:53,389 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:25:53,390 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:26:14,944 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:26:14,946 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:26:14,948 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:26:14,948 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:26:16,246 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:26:16,251 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:26:16,252 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:26:16,252 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:27:23,008 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:27:23,039 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:27:23,069 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:27:23,069 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:28:41,171 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:28:41,215 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:28:41,218 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:28:41,218 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:29:24,598 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:29:24,600 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:29:24,601 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:29:24,601 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:32:42,504 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:32:42,528 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:32:42,537 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:32:42,537 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:33:31,683 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:33:31,686 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:33:31,688 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:33:31,688 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources
+2022-12-11 11:34:30,102 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:34:30,106 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/main/resources
+2022-12-11 11:34:30,109 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 11:34:30,109 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/kfh-eclipse-work/junit-work/src/test/resources

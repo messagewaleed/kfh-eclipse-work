@@ -13,4 +13,11 @@ public class App
     }
     
     
+    boolean checkForPalindrome(String value) {
+    	if(value.equals("madam"))
+    		return true;
+    	return false;
+    }
+    
+    
 }
