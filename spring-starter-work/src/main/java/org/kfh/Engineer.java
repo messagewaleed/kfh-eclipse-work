@@ -8,12 +8,24 @@ public class Engineer {
 
     private String skills;
 
+    public Laptop getLaptop() {
+        return laptop;
+    }
+
+    public void setLaptop(Laptop laptop) {
+        this.laptop = laptop;
+    }
+
+    private Laptop laptop;
+
     @Override
     public String toString() {
         return "Engineer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", skills='" + skills + '\'' +
+                ", and I own a laptop : "  +
+                this.laptop +
                 '}';
     }
 
@@ -47,10 +59,12 @@ public class Engineer {
     public Engineer() {
     }
 
-    public Engineer(Integer id, String name, String skills) {
+    public Engineer(Integer id, String name, String skills, Laptop laptop) {
+        System.out.println("Engineer(Integer, String, String)");
         this.id = id;
         this.name = name;
         this.skills = skills;
+        this.laptop = laptop;
     }
 
     public void workForWages(){
