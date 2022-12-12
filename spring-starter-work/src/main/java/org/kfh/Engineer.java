@@ -1,5 +1,7 @@
 package org.kfh;
 
+import java.util.List;
+
 public class Engineer {
 
     private Integer id;
@@ -8,15 +10,25 @@ public class Engineer {
 
     private String skills;
 
-    public Laptop getLaptop() {
-        return laptop;
+//    public Laptop getLaptop() {
+//        return laptop;
+//    }
+//
+//    public void setLaptop(Laptop laptop) {
+//        this.laptop = laptop;
+//    }
+
+//    private Laptop laptop;
+
+    public List<Laptop> getLaptops() {
+        return laptops;
     }
 
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
+    public void setLaptops(List<Laptop> laptops) {
+        this.laptops = laptops;
     }
 
-    private Laptop laptop;
+    private List<Laptop> laptops;
 
     @Override
     public String toString() {
@@ -25,7 +37,7 @@ public class Engineer {
                 ", name='" + name + '\'' +
                 ", skills='" + skills + '\'' +
                 ", and I own a laptop : "  +
-                this.laptop +
+                //this.laptop +
                 '}';
     }
 
@@ -59,17 +71,19 @@ public class Engineer {
     public Engineer() {
     }
 
-    public Engineer(Integer id, String name, String skills, Laptop laptop) {
+    public Engineer(Integer id, String name, String skills) {
         System.out.println("Engineer(Integer, String, String)");
         this.id = id;
         this.name = name;
         this.skills = skills;
-        this.laptop = laptop;
+       // this.laptop = laptop;
     }
 
     public void workForWages(){
         System.out.println("Engineers work for wages...");
         System.out.println("Hello there I am an engineer and my details are : ");
         System.out.println(this);
+        System.out.println("Below are the laptops I currently possess : ");
+        laptops.forEach(System.out::println);
     }
 }

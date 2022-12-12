@@ -8,15 +8,17 @@
 <beans>
     <bean class="org.kfh.Engineer" id="theEngineer">
 <!--        Setter DI here-->
-<!--        <property name="id" value="93738"/>-->
-<!--        <property name="name" value="Sarah J"/>-->
-<!--        <property name="skills" value="Java, JSP, Servlets, HTML, CSS, DevOps"/>-->
+        <property name="id" value="93738"/>
+        <property name="name" value="Sarah J"/>
+        <property name="skills" value="Java, JSP, Servlets, HTML, CSS, DevOps"/>
+<!--       Initialize collection: -->
+        <property name="laptops">
+            <list>
+                <ref bean="laptop"/>
+                <ref bean="secondLaptop"/>
+            </list>
+        </property>
 
-<!--        Constructor DI here-->
-        <constructor-arg value="431"/>
-        <constructor-arg value="Zahem"/>
-        <constructor-arg value="JSP, Servlets, JDBC"/>
-        <constructor-arg ref="secondLaptop" />
     </bean>
 
     <bean class="org.kfh.Laptop" id="laptop">
