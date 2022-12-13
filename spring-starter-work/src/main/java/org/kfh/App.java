@@ -9,16 +9,19 @@ public class App
     {
 
 //      1.Load the context
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("annotationsConfig.xml");
 
 //        Get a reference to the bean
-        Engineer engineer = context.getBean("theEngineer", Engineer.class);
-        Engineer otherEngineer = context.getBean("theEngineer", Engineer.class);
+//        Engineer engineer = context.getBean("theEngineer", SoftwareEngineer.class);
+//        Engineer otherEngineer = context.getBean("theEngineer", SoftwareEngineer.class);
 
-        System.out.println(engineer == otherEngineer);//false, scope : prototype
+        //System.out.println(engineer == otherEngineer);//false, scope : prototype
+
+        Engineer engineer = context.getBean("anEngineer", AnnotationsEngineer.class);
+
 
 //        Call methods on the bean
-       // engineer.workForWages();
+        engineer.workForWages();
 
 
 

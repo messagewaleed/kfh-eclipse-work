@@ -6,8 +6,8 @@
 <!--Define your beans here-->
 
 <beans>
-<!--    <bean class="org.kfh.Engineer" id="theEngineer" autowire="byName" scope="prototype">-->
-    <bean class="org.kfh.Engineer" id="theEngineer" scope="prototype">
+<!--    <bean class="org.kfh.SoftwareEngineer" id="theEngineer" autowire="byName" scope="prototype">-->
+    <bean class="org.kfh.SoftwareEngineer" id="theEngineer" scope="prototype">
 <!--        Setter DI here-->
         <property name="id" value="93738"/>
         <property name="name" value="Sarah J"/>
@@ -21,7 +21,7 @@
         </property>
 
         <property name="address">
-            <bean class="org.kfh.Address"> <!-- Inner bean declared here for Address -->
+            <bean class="org.kfh.Address" init-method="callAtFirst"> <!-- Inner bean declared here for Address -->
                 <constructor-arg  value="Kuwait City"/>
                 <constructor-arg  value="334877"/>
             </bean>

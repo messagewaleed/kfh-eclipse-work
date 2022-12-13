@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean class="org.kfh.AnnotationsEngineer" id="anEngineer">-->
+<!--&lt;!&ndash;        No injection here, we did it with the annotation : @Autowired&ndash;&gt;-->
+<!--    </bean>-->
+
+    <bean class="org.kfh.Laptop" id="laptop">
+        <property name="id" value="78" />
+        <property name="name" value="thinkpad" />
+        <property name="company" value="huawei" />
+    </bean>
+
+    <bean class="org.kfh.Laptop" id="secondLaptop">
+        <property name="id" value="79" />
+        <property name="name" value="macbook" />
+        <property name="company" value="apple" />
+    </bean>
+
+
+
+
+
+<!--    For annotations to work:-->
+    <context:annotation-config></context:annotation-config>
+
+    <context:component-scan base-package="org.kfh"></context:component-scan>
+
+</beans>
