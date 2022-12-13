@@ -20,6 +20,18 @@ public class Engineer {
 
 //    private Laptop laptop;
 
+    private List<Laptop> laptops;
+
+    private Address address;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     public List<Laptop> getLaptops() {
         return laptops;
     }
@@ -28,7 +40,7 @@ public class Engineer {
         this.laptops = laptops;
     }
 
-    private List<Laptop> laptops;
+
 
     @Override
     public String toString() {
@@ -36,7 +48,6 @@ public class Engineer {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", skills='" + skills + '\'' +
-                ", and I own a laptop : "  +
                 //this.laptop +
                 '}';
     }
@@ -85,5 +96,7 @@ public class Engineer {
         System.out.println(this);
         System.out.println("Below are the laptops I currently possess : ");
         laptops.forEach(System.out::println);
+        System.out.println("And yes below are my address details : ");
+        System.out.println(this.getAddress().getCity() + ", pin : " + this.getAddress().getPin());
     }
 }

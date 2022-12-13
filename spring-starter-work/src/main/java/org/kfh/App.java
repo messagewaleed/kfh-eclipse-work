@@ -13,15 +13,12 @@ public class App
 
 //        Get a reference to the bean
         Engineer engineer = context.getBean("theEngineer", Engineer.class);
+        Engineer otherEngineer = context.getBean("theEngineer", Engineer.class);
+
+        System.out.println(engineer == otherEngineer);//false, scope : prototype
 
 //        Call methods on the bean
-        engineer.workForWages();
-
-//        Without spring
-//        Engineer engineer = new Engineer(78, "Sarah", "Java, JSP, .Net, HTML, CSS, Spring");
-//
-//        engineer.workForWages();
-
+       // engineer.workForWages();
 
 
 
