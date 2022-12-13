@@ -12,7 +12,7 @@
 <!--&lt;!&ndash;        No injection here, we did it with the annotation : @Autowired&ndash;&gt;-->
 <!--    </bean>-->
 
-    <bean class="org.kfh.Laptop" id="laptop">
+    <bean class="org.kfh.Laptop" id="firstLaptop">
         <property name="id" value="78" />
         <property name="name" value="thinkpad" />
         <property name="company" value="huawei" />

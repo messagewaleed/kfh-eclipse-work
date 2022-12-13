@@ -1,8 +1,14 @@
 package org.kfh;
 
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Arrays;
+import java.util.List;
+
+@Configuration
 public class App
 {
     public static void main( String[] args )
@@ -23,9 +29,18 @@ public class App
 //        Call methods on the bean
         engineer.workForWages();
 
-
-
-
-
     }
+
+    @Bean
+    public List<String> getNames(){
+        return Arrays.asList("Ahmed", "Dalal", "Zahem");
+    }
+//
+//    @Bean
+//    public String getMessage(){
+//        return "A good day...";
+//    }
+
+
+
 }
