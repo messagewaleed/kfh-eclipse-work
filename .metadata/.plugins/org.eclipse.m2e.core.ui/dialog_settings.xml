@@ -26,12 +26,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kfh.waleed.training"/>
 			<item value="com.kfh.training"/>
 		</list>
 		<list key="groupId">
 			<item value="com.kfh"/>
 		</list>
 		<list key="artifactId">
+			<item value="junit-work"/>
 			<item value="maven-starter"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -43,6 +45,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 			<item value="1.0.0"/>
 		</list>
 	</section>
@@ -68,5 +71,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="494"/>
+		<item key="x" value="482"/>
+		<item key="y" value="123"/>
 	</section>
 </section>
