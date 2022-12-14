@@ -15,10 +15,29 @@ public class App
 
 //        System.out.println("Number of developers : " + dbConnect.getNumberOfDevelopers());
 
-        System.out.println("Enter id");
+//        System.out.println("Enter id");
 
-        int id = new Scanner(System.in).nextInt();
+//        Scanner scan = new Scanner(System.in);
+//
+//        System.out.println("Please enter developer name and skills");
+//
+//        dbConnect.addNewDeveloper(new Developer(scan.nextLine(), scan.nextLine()));
+//
+//
+//        int id = new Scanner(System.in).nextInt();
+//
+//        System.out.println(dbConnect.getDeveloperNameById(id));
 
-        System.out.println(dbConnect.getDeveloperNameById(id));
+//        System.out.println("Current registered developers :");
+//
+        dbConnect.getAllDevelopers().forEach(System.out::println);
+
+//        System.out.println(dbConnect.getDeveloperDetailsById(id));
+
+
+
+
+
+
     }
 }
