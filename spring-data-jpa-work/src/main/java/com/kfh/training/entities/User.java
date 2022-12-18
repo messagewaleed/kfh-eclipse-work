@@ -9,7 +9,7 @@ public class User {
 	
 	@Id
 //	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	private Integer id;
 	
 //	@Column("userName")
 	private String name;
