@@ -2,14 +2,14 @@ package com.kfh.training;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaClient //Optional
-public class BooksApiApplication {
+@EnableEurekaServer
+public class EurekaServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BooksApiApplication.class, args);
+		SpringApplication.run(EurekaServerApplication.class, args);
 	}
 
 }

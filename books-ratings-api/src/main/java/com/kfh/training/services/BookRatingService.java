@@ -24,6 +24,7 @@ public class BookRatingService {
 		
 		
 		String urlOfAnotherService = "http://localhost:8080/books";
+//		String urlOfAnotherService = "http://books-api/books";
 		
 		Object[] dataFromOtherService = restTemplate.getForObject(urlOfAnotherService, Object[].class);
 	
