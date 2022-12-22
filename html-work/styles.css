@@ -1,0 +1,19 @@
+/* CSS here */
+#firstBox{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+.second{
+    color: #33BEFF;
+}
+
+.second span{
+    color: firebrick;
+    background-color: bisque;
+}
+
+h1{
+    color: darkmagenta;
+}
+
