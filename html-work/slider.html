@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Slider with CSS</title>
+</head>
+<body>
+    <style>
+        .slider{
+            margin-top: 10%;
+        }
+        .slider ul li{
+            list-style-type: none;
+            width: 50px;
+            float: left;
+            overflow: hidden;
+            transition: 3s all ease;
+        }
+        .slider ul li:hover{
+            width: 550px;
+            border-radius: 25px;
+        }
+        .slider ul li img{
+            width: 550px;
+            height: 500px;
+        }
+       
+    </style>
+    <div class="slider">
+        <ul>
+            <li><img src="images/1.jpeg" alt="An Image for the nature"></li>
+            <li><img src="images/2.jpg" alt="An Image for the nature"></li>
+            <li><img src="images/3.jpg" alt="An Image for the nature"></li>
+            <li><img src="images/4.jpg" alt="An Image for the nature"></li>
+            <li><img src="images/5.jpg" alt="An Image for the nature"></li>
+        </ul>
+    </div>
+</body>
+</html>

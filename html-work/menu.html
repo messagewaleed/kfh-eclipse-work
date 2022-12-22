@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu : CSS</title>
+</head>
+<body>
+    <style>
+        #container{
+
+        }
+        #menu{
+            position: absolute;
+            top: 20%;
+            width: 380px;
+            height: 100%;
+            background-color: brown;
+        }
+        #menu ul{
+            list-style: none;
+        }
+        #menu ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            display: block;
+            padding: 10px 20px;
+            transition: .3s all ease;
+        }
+        #menu ul li a:hover{
+            border-bottom: 1px solid whitesmoke;
+            background-color: rgb(201, 74, 74);
+        }
+    </style>
+    <div id="container">
+        <div id="menu">
+            <ul>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Weather</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
