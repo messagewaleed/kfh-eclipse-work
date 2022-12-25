@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Forms/button Classes : BootStrap</title>
+</head>
+<body>
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-info btn-outline-dark">Info</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-link">LINK</button>
+    <button class="btn btn-warning btn-lg btn-block">WARNING</button>
+
+    <!-- Some more stuff with buttons -->
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-success">
+            <input type="checkbox" name="options" id="option1" checked>Phones
+        </label>
+        <label class="btn btn-success active">
+            <input type="checkbox" name="options" id="option1">Laptops
+        </label>
+        <label class="btn btn-success">
+            <input type="checkbox" name="options" id="option1" >Monitors
+        </label>
+    </div>
+
+    <!-- Using Forms -->
+    <form action="#">
+        <fieldset class="form-group">
+            <label for="userName">Name</label>
+            <input class="form-control" type="text" id="userName" placeholder="Your name"><br>
+        </fieldset>
+        <fieldset class="form-group">
+            <label for="userPassword">Password</label>
+            <input class="form-control" type="password" id="userPassword" placeholder="Your Password"><br>
+        </fieldset>
+        <input class="btn btn-info" type="submit" value="LOGIN">
+    </form>
+
+
+
+    <form action="#">
+        <div class="row">
+            <div class="col-sm-6">
+                <input class="form-control" type="text" placeholder="Your Name">
+            </div>
+            <div class="col-sm-6">
+                <input class="form-control" type="password" placeholder="Your Password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-block" value="LOGIN">
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>

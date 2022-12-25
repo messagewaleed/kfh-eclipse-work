@@ -8,7 +8,7 @@
     color: #33BEFF;
 }
 
-.second span{
+.second > span{
     color: firebrick;
     background-color: bisque;
 }
