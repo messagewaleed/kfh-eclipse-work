@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring events : JS</title>
+</head>
+<body>
+   <script>
+     let counter = 0;
+ function buttonClicks(){
+   counter++;
+
+   let content = document.getElementById('content');
+
+   content.innerHTML = `You have clicked the button ${counter} times...`;
+ }
+
+ function constructComboBox(){
+ let textDisplay = "<select>"
+    textDisplay += "<option>Please select your ID</option>";
+
+    for(let countValues = 7890; countValues <= 9000; countValues++){
+        textDisplay += `<option>${countValues}</option>`;
+    }
+    textDisplay += "</select>";
+
+    document.getElementById('comboBox').innerHTML = textDisplay;
+   
+}
+
+
+
+
+
+   </script> 
+   <div id="content">
+    KFH - Bank of our choice
+   </div>
+   <div id="comboBox">
+
+   </div>
+   <button onclick="buttonClicks();">Count CLicks</button>
+   <button onclick="constructComboBox();">Construct Drop Down</button>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

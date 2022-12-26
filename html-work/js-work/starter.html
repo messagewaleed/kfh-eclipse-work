@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js : Starter</title>
+</head>
+<body>
+    
+    <p id="para">
+        A New Para...
+    </p>
+
+    <div class="content">
+
+    </div>
+    
+    <script>
+        // alert("Getting into JS...");
+        console.log("Writing here from JS...");
+
+        // Getting a hook to the para
+        document.getElementById("para").innerHTML += "Changed dynamically from within JS...";
+
+
+        // Getting a hook to the div:content
+        document.getElementsByClassName('content')[0].innerHTML = "Content from JS";
+
+        //Using varaibles
+        var myVar = 789;
+
+        console.log(myVar);
+
+        console.log(typeof myVar);
+
+        myVar = "Nora";//Works
+
+        console.log(typeof myVar);
+
+        console.log(myVar);
+
+        let flag = false; //Works
+
+        console.log(`value of flag is : ${flag}`);
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

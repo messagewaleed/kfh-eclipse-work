@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving ahead with JS</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <script>
+    let value = 560;//Hardcoded, should be avoided
+
+    if (value === false)
+        console.log("EQUAL TO...");
+    else
+        console.log("Not EQUAL TO...");
+
+
+        switch (value) {
+            case 0:
+                console.log("ZERO");
+                break;
+            case 560:
+                console.log("Five Hundred SIXTY");
+                break;
+            default:
+                console.log("NO Match FOUND...");
+                break;
+        }
+
+        let val = 976, rev;
+
+        while(val > 0){
+            rev = Math.floor(val % 10);
+            val = Math.floor(val / 10);
+            document.write(rev);
+            // console.log(rev);
+        }
+
+        // Using prompt to take user input
+
+        var userName = prompt("What can we call you?", "User");
+
+         alert(`Welcome ${userName}`);
+
+        // let confirmMessage = confirm("Are you sure?");
+
+        // if(confirmMessage){
+        //     document.write("Ok, continuing ahead...");
+        // }else{
+        //     document.write("Alright, halting execution now...");
+        // }
+
+    
+
+   </script> 
+
+
+
+
+    
+</body>
+</html>
