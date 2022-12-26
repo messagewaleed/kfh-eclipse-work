@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions : JS</title>
+</head>
+<body>
+    <script>
+
+        function add(firstNum = 0, secondNum = 0){
+            console.log(arguments.length);
+            return firstNum + secondNum;
+        }
+
+        console.log(`Addition is : ${add(24, 90, 88)}`);
+
+
+    // Callbacks
+    function confirmUserAction(message, yes, no){
+        if(confirm(message))
+            yes();
+        else
+            no();
+    }
+
+    // function displayYes(){
+    //     alert("Alright we are moving on...");
+    // }
+
+    // function displayNo(){
+    //     alert("Ok, halting execution right away...");
+    // }
+
+    // confirmUserAction(
+    //     "Do you want to proceed ahead?",
+    //      () => {alert("Alright, moving on...");},
+    //      () => {alert("Ok, halting execution now...");}
+    //      );
+
+    
+
+    let myOtherFunc = () => {
+        console.log("Hello Arrow func...");
+    }
+
+    myOtherFunc();  
+
+  
+
+
+
+
+
+        function func(message){
+            return "Coming back from func...";
+        }
+        //console.log(func());
+
+        // Or with function expressions
+        let myFunc = function(message, other){
+            alert(message);
+                }
+
+                // myFunc();
+
+        function displayTime(){
+//             setTimeout(()=>{
+// document.getElementById('timeContainer').innerHTML = new Date().toLocaleTimeString();
+//             }, 1000);
+
+setInterval(()=>{
+document.getElementById('timeContainer').innerHTML = new Date().toLocaleTimeString();
+            }, 1000);
+            
+        }
+
+        function displayGreeting(){
+            console.log("Still works...");
+        }
+
+        // let myListOfPeople = [
+        //     {name: 'Waleed', location: 'Kashmir', doj: '28/05/22'},
+        //     {name: 'Dalal', location: 'Kuwait', doj: '12/07/23'},
+        //     {name: 'Omar', location: 'Kuwait', doj: '12/03/22'},
+        //     {name: 'Ahmed', location: 'UK', doj: '04/10/22'}
+        // ];
+
+
+
+    </script>
+
+    <!-- <input onclick="myFunc();" type="text" id="userMessage" placeholder="Your message"> -->
+
+
+    <button onclick="displayTime();">Show Time</button>
+    <div id="timeContainer">
+
+    </div>
+
+    <button onclick="displayGreeting();">Greet Me</button>
+
+
+
+
+
+
+</body>
+</html>

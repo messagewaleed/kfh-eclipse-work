@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with DOM</title>
+</head>
+<body>
+    <form action="#">
+        <input type="text" name="" id="" placeholder="A Placeholder">
+    </form>
+
+
+
+    <div id="container">
+        
+    </div>
+
+    <a href="https://www.google.com">Search on Google</a>
+    <a href="https://www.bing.com">Search on Bing</a>
+
+    <form action=""></form>
+
+    <button onclick="createNewPara();">Create a new Paragraph</button>
+    <button onclick="changeStyle();">Change Styling of the div</button>
+
+
+    <script>
+        // document.getElementById('container').innerHTML = document.body.innerHTML;
+        console.log(document.lastModified);
+
+        console.log(`Links on this page : ${document.links.length}`);
+        console.log(`Forms on this page : ${document.forms.length}`);
+        console.log(`Page Title : ${document.title}`);
+
+
+        let newButton = document.createElement("BUTTON");
+
+        newButton.innerHTML = "CREATED LATER";
+
+        document.body.appendChild(newButton);
+
+
+        function createNewPara(){
+            let newPara = document.createElement("P");
+
+            newPara.id = "newPara";
+            newPara.innerHTML = "This paragraph was created later on from javascript...";
+
+            document.getElementById('container').appendChild(newPara);
+        }
+
+        function changeStyle(){
+            let containerDiv = document.getElementById('container');
+            containerDiv.style.fontSize = "30px";
+            containerDiv.style.backgroundColor= "red";
+            containerDiv.style.color= "white";
+
+
+
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

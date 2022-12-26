@@ -7,7 +7,15 @@
     <title>Exploring events : JS</title>
 </head>
 <body>
+    <input type="button" id="registerButton" value="REGISTER" />
    <script>
+
+
+    document.getElementById('registerButton').addEventListener("mouseover", () => {
+        console.log("Hover functionality added right now...");
+    });
+
+
      let counter = 0;
  function buttonClicks(){
    counter++;
@@ -34,6 +42,7 @@
 
 
 
+
    </script> 
    <div id="content">
     KFH - Bank of our choice
@@ -44,6 +53,17 @@
    <button onclick="buttonClicks();">Count CLicks</button>
    <button onclick="constructComboBox();">Construct Drop Down</button>
 
+   <button ondblclick="alert('You just double clicked on me...');">Double Click Me</button>
+   <button onmouseover="console.log('onmouseover working...')" onmouseout="console.log('onmouseout working...')">Check Mouse Out</button>
+   
+
+   <p id="data" onclick="alert('Click on the text?');" oncopy = "alert('the action of copying on our website is prohibited!!!'); return false;">
+        We are almost in the mid of this training,
+        have already covered a significant portion
+   </p>
+
+
+   
 
 
 
