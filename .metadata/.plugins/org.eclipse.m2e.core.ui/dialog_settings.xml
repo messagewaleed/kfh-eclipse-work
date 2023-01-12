@@ -26,6 +26,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.waleed.kfh.training"/>
 			<item value="com.kfh.waleed.training"/>
 			<item value="com.kfh.training"/>
 		</list>
@@ -33,6 +34,7 @@
 			<item value="com.kfh"/>
 		</list>
 		<list key="artifactId">
+			<item value="selenium-work"/>
 			<item value="junit-work"/>
 			<item value="maven-starter"/>
 		</list>

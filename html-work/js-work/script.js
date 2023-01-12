@@ -27,5 +27,8 @@ function playAround(){
 
     console.log(typeof people);
 
+
+    people = "Ahmed";
+
     // let {name, id} = people; 
 }

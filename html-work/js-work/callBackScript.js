@@ -1,4 +1,4 @@
-const news = [
+dconst news = [
     {title: 'First News', description: 'Our first news'},
     {title: 'Second News', description: 'Our Second News'},
     {title: 'Other News', description: 'Some other news'}
